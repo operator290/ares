@@ -218,7 +218,7 @@ func downloadfile(conn net.Conn) {
 		return
 	}
 
-	fmt.Printf(`+ File saved to "%s" in your current directory\n`, filename)
+	fmt.Printf(`+ File saved to "%s" in your current directory`, filename)
 
 	return
 }
