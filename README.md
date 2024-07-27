@@ -1,7 +1,7 @@
 Ares is a basic rat written by operator290
 
 Functionality:
- + Shell access
+ + Full shell access
  + File upload / download
  + Create message box
  + Persistence using registry run keys
