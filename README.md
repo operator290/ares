@@ -14,6 +14,12 @@ Compile instructions:<br>
  To compile the server for linux:<br>
   Run the command: `go build main.go`
 
+Known issues:<br>
+ + Message box feature causes stub to stop running
+ + Using changedir with arguments in a shell session will cause the client to hang and spike RAM usage on target PC. (FIXED BUT NOT UPDATED GIT REPO YET, STILL TESTING)
+
+All known issues are being worked on and will be fixed soon
+
 Usage:
  1. Open the server CLI by running `./main`
  2. Configure server listener options
